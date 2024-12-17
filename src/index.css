@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* src/index.css or src/App.css */
+/* src/index.css or src/App.css */
+@font-face {
+  font-family: 'Fellix';
+  src: url('./assets/fonts/Fellix-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Fellix-Regular.woff') format('woff');
+  font-weight: 400; /* Normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fellix';
+  src: url('./assets/fonts/Fellix-Medium.woff2') format('woff2'),
+       url('./assets/fonts/Fellix-Medium.woff') format('woff');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fellix';
+  src: url('./assets/fonts/Fellix-SemiBold.woff2') format('woff2'),
+       url('./assets/fonts/Fellix-SemiBold.woff') format('woff');
+  font-weight: 600; /* Semi-Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fellix';
+  src: url('./assets/fonts/Fellix-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Fellix-Bold.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: 'Fellix', sans-serif;
+}
